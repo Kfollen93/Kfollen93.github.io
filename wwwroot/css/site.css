@@ -82,3 +82,8 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.border-top {
+    /* Overwrites the 1px line above the footer (white by default) to match the footer color */
+    border-top: 1px solid #0b3954 !important;
+}
+
