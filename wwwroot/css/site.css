@@ -87,3 +87,11 @@ body {
     border-top: 1px solid #0b3954 !important;
 }
 
+.marker-font {
+    font-family: "Permanent Marker", cursive;
+}
+
+.indie-font {
+    font-family: 'Indie Flower', cursive;
+}
+
