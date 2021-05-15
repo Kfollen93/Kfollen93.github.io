@@ -95,3 +95,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.title-lines {
+    padding-bottom: 25px;
+}
+
+.project-pictures {
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.bottom-margin{
+    margin-bottom: 20px;
+}
+
