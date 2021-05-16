@@ -6,7 +6,8 @@
     <title>Kyle Follendorf's Portfolio</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-
+    <!-- Font Awesome for Icons-->
+    <script src="https://kit.fontawesome.com/68ee07ce59.js" crossorigin="anonymous"></script>
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 marker-font">
             <div class="container">
-				<a class="navbar-brand" asp-controller="Home" asp-action="Index">Kyle Follendorf</a>
+				<a class="navbar-brand" asp-controller="Home" asp-action="Index">Home</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,11 +41,20 @@
     </div>
 
     <footer class="border-top footer text-muted">
-		<div class="container">
-			&copy; 2021 - Kyle Follendorf - <a href="https://github.com/Kfollen93">GitHub</a>
-                                            <a href="mailto: ksfollendorf@gmail.com">E-Mail</a>
-                                            <a href="https://www.linkedin.com/in/kyle-follendorf-11036b199/">LinkedIn</a>
-		</div>
+        <div class="container">
+            <div id="icon-spacer">
+                &copy; 2021 - Kyle Follendorf -
+                <a href="https://github.com/Kfollen93" target="_blank">
+                    <i class="fa fa-github-square footer-icons"></i>
+                </a>
+                <a href="mailto: ksfollendorf@gmail.com">
+                    <i class="far fa-envelope footer-icons"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kyle-follendorf-11036b199/" target="_blank">
+                    <i class="fab fa-linkedin footer-icons"></i>
+                </a>
+            </div>
+        </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
