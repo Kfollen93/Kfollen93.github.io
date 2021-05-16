@@ -105,7 +105,74 @@ body {
     border-radius: 2%;
 }
 
-.bottom-margin{
+.button-margin{
     margin-bottom: 20px;
 }
 
+#icon-spacer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 60%;
+    margin: auto;
+    color: white;
+}
+
+.footer-icons {
+    font-size: 36px;
+    color: white;
+    padding-top: 12px;
+    padding-right: 5px;
+}
+
+#align-aboutme-text{
+    padding-left: 0;
+}
+
+.project-icons {
+    font-size:36px;
+    color:#343a40;
+}
+
+/* Remove underline from links */
+a:link {
+    text-decoration: none;
+}
+
+.about-me-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 845px) {
+    .about-me-pictures {
+        transform: scale(0.55, 0.55);
+        -ms-transform: scale(0.55, 0.55);
+        -webkit-transform: scale(0.55, 0.55);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+.footer-icons:hover {
+    animation: bounce .5s;
+}
+
+.project-icons:hover {
+    animation: bounce .5s;
+}
