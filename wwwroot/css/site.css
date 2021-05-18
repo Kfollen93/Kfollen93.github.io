@@ -105,6 +105,23 @@ body {
     border-radius: 2%;
 }
 
+/* Keeps project picture in the center of black box during resize*/
+@media (max-width: 991px) {
+    .project-pictures {
+      padding-top: 26px;
+    }
+}
+@media (max-width: 767px) {
+    .project-pictures {
+        padding-top: 46px;
+    }
+}
+@media (max-width: 575px) {
+    .project-pictures {
+        padding-top: 0px;
+    }
+}
+
 .button-margin{
     margin-bottom: 20px;
 }
@@ -144,14 +161,6 @@ a:link {
     justify-content: center;
 }
 
-@media (max-width: 845px) {
-    .about-me-pictures {
-        transform: scale(0.55, 0.55);
-        -ms-transform: scale(0.55, 0.55);
-        -webkit-transform: scale(0.55, 0.55);
-    }
-}
-
 @keyframes bounce {
     0%, 20%, 60%, 100% {
         -webkit-transform: translateY(0);
@@ -176,3 +185,23 @@ a:link {
 .project-icons:hover {
     animation: bounce .5s;
 }
+
+.solid-border {
+    border-style: solid;
+    padding: 40px 45px 40px 45px;
+}
+
+.custom-underline {
+    text-decoration: overline;
+}
+
+#list {
+    padding: 0px 0px 0px 18px;
+}
+
+#underline-project-icons {
+    width: 100px;
+    display: table;
+}
+
+
