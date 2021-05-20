@@ -159,6 +159,8 @@ a:link {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @keyframes bounce {
