@@ -14,16 +14,17 @@ function typeWriter() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    typeWriter();  
+    typeWriter();
 });
 
-// Switching between active tab underline
+/* Switching between active tab underline
 const tabs = document.querySelectorAll('.tab');
 tabs.forEach(tab => {
     tab.addEventListener('click', function () {
         const current = document.querySelector('.tab.active');
         current.classList.remove('active');
         this.classList.add('active');
-        console.log("testing");
+        //event.preventDefault(); // Prevents form from being submitted
     })
 })
+*/

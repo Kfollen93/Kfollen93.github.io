@@ -206,6 +206,7 @@ a:link {
     display: table;
 }
 
+/* Animated Blue Underline */
 .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -230,7 +231,7 @@ a:link {
     }
 
 
-/*Switching between active tab underline */ 
+/*Switching between active tab underline
 .flex {
     flex-flow: row nowrap;
     align-items: center;
@@ -247,4 +248,27 @@ a:link {
 
 .tab.active {
     border-bottom-color: orange;
+} */ 
+
+/* Animated Breathing Text*/
+.breathe {
+    font-weight: 300;
+    animation-name: breathe;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+@keyframes breathe {
+    0% {
+        font-size: 22px;
+    }
+
+    50% {
+        font-size: 20px;
+    }
+
+    100% {
+        font-size: 22px;
+    }
 }
