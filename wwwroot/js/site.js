@@ -3,7 +3,7 @@
 
 let i = 0;
 let text = 'Software Engineer.';
-let speed = 50;
+let speed = 120;
 
 function typeWriter() {
     if (i < text.length && document.getElementById("typewriter-effect") != null) {
@@ -28,3 +28,28 @@ tabs.forEach(tab => {
     })
 })
 */
+
+/*let links = document.querySelectorAll('a');
+if (links) {
+    links.forEach((link) => {
+        link.onclick = (event) => {
+            let body = document.querySelector('body');
+            let html = document.querySelector('html');
+            event.preventDefault();
+            setTimeout(function () {
+                if (body.classList.contains('fade-out')) {
+                    console.log('switching..');
+                    if (!event.srcElement.parentElement.href) {
+                        window.location = event.srcElement.href;
+                    } else {
+                        window.location = event.srcElement.parentElement.href;
+                    }
+                } else {
+                    console.log('error', event.srcElement.parentElement.href);
+                }
+            }, 500);
+            body.classList.add('fade-out');
+            html.classList.add('fade-out');
+        }
+    });
+} */

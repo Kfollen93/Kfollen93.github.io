@@ -272,3 +272,47 @@ a:link {
         font-size: 22px;
     }
 }
+
+/* Page transition fades */
+.fade-out {
+    animation: fadeOut 1.5s;
+    -webkit-animation: fadeOut 1.5s;
+    -moz-animation: fadeOut 1.5s;
+    -o-animation: fadeOut 1.5s;
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
