@@ -230,26 +230,6 @@ a:link {
         transform-origin: bottom left;
     }
 
-
-/*Switching between active tab underline
-.flex {
-    flex-flow: row nowrap;
-    align-items: center;
-}
-
-.tab {
-    display: inline-block;
-    border: none;
-    margin: 0 20px;
-    border-bottom: 4px solid transparent;
-    outline: none;
-    cursor: pointer;
-}
-
-.tab.active {
-    border-bottom-color: orange;
-} */ 
-
 /* Animated Breathing Text*/
 .breathe {
     font-weight: 300;
