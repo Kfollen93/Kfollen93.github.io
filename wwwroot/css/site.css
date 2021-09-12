@@ -230,27 +230,8 @@ a:link {
         transform-origin: bottom left;
     }
 
-/* Animated Breathing Text*/
-.breathe {
-    font-weight: 300;
-    animation-name: breathe;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0;
-    animation-iteration-count: infinite;
-}
-@keyframes breathe {
-    0% {
-        font-size: 22px;
-    }
-
-    50% {
-        font-size: 20px;
-    }
-
-    100% {
-        font-size: 22px;
-    }
+#github-padding {
+    padding-top: 15px;
 }
 
 /* Page transition fades */
